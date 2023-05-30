@@ -1,0 +1,166 @@
+:root {
+    --primario: #f9d401;
+    --secundario: #ed9100;
+    --terciario: #3b7900;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    background-image: url(textura-panal-abejas.jpg);
+    background-size: contain;
+    max-width: 100vw;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    padding: 0 100px;
+    height: 150px;
+}
+
+header img {
+    margin: auto 0;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+#titulomaximo {
+    color: var(--secundario);
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-left: 2px solid var(--secundario);
+}
+
+nav {
+    position: static;
+    border-bottom: 2px solid var(--secundario);
+    border-top: 2px solid var(--secundario);
+    background-color: var(--primario);
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0 50px;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    height: 50px;
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 50px;
+    color: var(--terciario);
+    overflow: hidden;
+}
+
+nav ul li a:hover {
+    color: var(--secundario);
+    text-decoration: underline;
+}
+
+#textosheader {
+    color: var(--terciario);
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+
+
+/* CARROUSEL */
+
+.container-slider {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    width: 400%;
+    height: calc(100vh - 200px);
+}
+
+.slider-section {
+    width: 100%;
+}
+
+.slider-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-left: -100%;
+    object-fit: cover;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: all 2.5s;
+}
+
+.slider-btn:hover {
+    background-color: #fff;
+}
+
+.slider-btn-right {
+    right: 10px;
+}
+
+.slider-btn-left {
+    left: 10px;
+}
+
+.slider-btn-right::before {
+    content: url(arrow-right-svgrepo-com.svg);
+}
+
+.slider-btn-left::before {
+    content: url(arrow-left-svgrepo-com.svg);
+}
+
+
+/* Ejercicio*/
+
+@media(max-width: 600px) {
+    nav>ul {
+        max-width: 100%;
+        font-size: 14px;
+        overflow-x: scroll;
+        padding: 0 5px;
+    }
+}

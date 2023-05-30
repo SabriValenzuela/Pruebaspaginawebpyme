@@ -1,0 +1,25 @@
+wid.galeria-fotos {
+            margin: 50px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        
+
+
+.fotos-productos {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+
+
+ .contenedor-imagen {
+            width: 24%;
+            margin-bottom: 10%;
+            display: flex;
+            color: #3b7900;
+            image-orientation: ;
+            justify-content: space-evenly;
+            flex-wrap: wrap;

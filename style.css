@@ -1,0 +1,62 @@
+body {
+    color: aquamarine;
+}
+
+p {
+    color: blueviolet;
+}
+
+p.green {
+    color: chartreuse;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.border p,
+h2,
+h3 {
+    color: orange;
+}
+
+* {
+    font-size: 25px;
+}
+
+#fondo {
+    /*border:12px solid olivedrab;*/
+    padding: 10px;
+    border-style: solid;
+    border-color: rebeccapurple;
+    border-width: 1rem;
+    border-radius: 50%;
+    background-color: rgb(0, 81, 119);
+    /* v1 = rojo v2 = verde v3 = azul */
+}
+
+#fondo p {
+    font-size: 40px;
+    color: white;
+    height: 300px;
+}
+
+.container-image {
+    color: white;
+    background-color: rgba(0, 0, 240, 0.8);
+    background-image: url(images/image1manga.jpg);
+    background-size: cover;
+    /*opacity:0.5;
+    background-color: blue;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container-image p {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}

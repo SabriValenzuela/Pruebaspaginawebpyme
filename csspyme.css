@@ -1,0 +1,140 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Gill Sans';
+        background-image: url(textura-panal-abejas.jpg);
+        background-size: cover;
+    }
+    
+    header {
+        padding: 0px;
+    }
+    
+    .titulomaximo {
+        font-size: 30px;
+        text-align: center;
+        color: #3b7900;
+        padding: 50px70x 0 0;
+    }
+    
+    .contenedor {
+        padding: 60px 0;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    .titulo {
+        color: #3b7900;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 60%;
+    }
+    
+    nav {
+        text-align: center;
+        padding: 50px70x 0 0;
+    }
+    
+    nav>a {
+        color: #618e00;
+        font-weight: 500;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    
+    nav>a:hover {
+        color: #ed9100;
+        text-decoration: underline;
+    }
+    
+    header .textos-header {
+        display: flex;
+        height: 450px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        background: #f9d401;
+    }
+    
+    .textos-header h1 {
+        font-size: 60px;
+        color: #ed9100;
+        background: #f9d401;
+    }
+    
+    .textos-header h2 {
+        font-size: 30px;
+        font-weight: 300;
+        color: #3b7900;
+        background: #f9d401;
+    }
+    
+    .textos-header h3 {
+        font-size: 30px;
+        font-weight: 300;
+        color: #3b7900;
+    }
+    
+    .contenedor Sobre nosotros {
+        display: flex;
+        justify-content: center;
+        color: #ed9100;
+    }
+    
+    .Imagen sobre nosotros {
+        width: 48%;
+        margin-bottom: 330px;
+    }
+    
+    #contenido-texto {
+        margin: 40px;
+        background-color: #618e00;
+    }
+    
+    #contenido-parrafo {
+        margin: 40px;
+    }
+    
+    .Productos {
+        background: #ed9100;
+        image-orientation: center;
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+    
+    .contenedor-imagen {
+        width: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        color: #3b7900;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-indent: -100px;
+    }
+    
+    .galeria-fotos {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+    
+    .imagen-con-margen {
+        margin: 50px;
+    }
+    
+    .Productos h2 {
+        color: #3b7900;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 60%;
+        background-color: #ed9100;
+    }
